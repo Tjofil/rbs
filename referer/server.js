@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 5000;
 
-
 allowedReferes = ['definetlyYourReferer.com', 'freeReferer100percentLegit.rs']
 
 const authenticateRequest = (req, res, next) => {
